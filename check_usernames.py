@@ -19,7 +19,9 @@ with open("following.json") as f:
 not_following_back = following - followers
 
 with open("output.html", "w") as out:
-    out.write("<html><body><h2>Instagram: Users You Follow Who Don't Follow You Back</h2><ul>\n")
+    out.write("<html><body><h2>Instagram: Users You Follow Who Don't Follow You Back</h2>")
+    out.write(f"<p>Total: <b>{len(not_following_back)}</b> users</p>")
+    out.write("<ul>\n")
     for username in sorted(not_following_back):
         url = f"https://instagram.com/{username}"
         out.write(f'<li><a href="{url}" target="_blank">{username}</a></li>\n')

@@ -25,13 +25,11 @@ Make sure you have Python 3.8+ installed.
 
 ## How to Export Your Instagram Followers and Following
 
-1. **Go to Instagram on a web browser.**
-2. **Go to your profile.**
-3. **Click on the menu (☰) > Your activity > Download your information.**
-4. **Request a download** for your account data (choose JSON format for easier parsing).
-5. **Wait for the email from Instagram** and download the ZIP file.
-6. **Extract the ZIP file.** Inside, you'll find files like `followers_1.json` and `following.json` in the `followers_and_following` folder.
-7. **Copy `followers_1.json` and `following.json` into this project folder.**
+1. **Go to https://accountscenter.instagram.com/info_and_permissions/dyi/.**
+2. **Request a download** for your account data (choose JSON format for easier parsing).
+3. **Wait for the email from Instagram** and download the ZIP file.
+4. **Extract the ZIP file.** Inside, you'll find files like `followers_1.json` and `following.json` in the `followers_and_following` folder.
+5. **Copy `followers_1.json` and `following.json` into this project folder.**
 
 ---
 
